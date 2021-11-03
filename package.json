@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-plugin-modify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A plugin to modify html file after html-webpack-plugin processing",
   "main": "dist/index.js",
   "scripts": {
