@@ -31,7 +31,7 @@
     "rimraf": "^3.0.2",
     "typescript": "^4.4.4"
   },
-  "dependencies": {
-    "html-webpack-plugin": "^5.5.0"
+  "peerDependencies": {
+    "html-webpack-plugin": "*"
   }
 }
