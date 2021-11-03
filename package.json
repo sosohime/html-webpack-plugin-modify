@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/sosohime/html-webpack-plugin-modify#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.4.4"
   },

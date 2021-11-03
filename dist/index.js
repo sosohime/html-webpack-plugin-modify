@@ -12,7 +12,7 @@ module.exports = class HtmlWebpackPluginModify {
             compiler.hooks.compilation.tap(pluginName, (compilation) => {
                 HtmlWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync(pluginName, (data, cb) => {
                     if (remove) {
-                        data.html = data.html.replace(remove, "");
+                        data.html = data.html.replace(remove, '');
                     }
                     cb(null, data);
                 });
