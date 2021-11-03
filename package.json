@@ -1,0 +1,37 @@
+{
+  "name": "html-webpack-plugin-modify",
+  "version": "0.0.1",
+  "description": "A plugin to modify html file after html-webpack-plugin processing",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosohime/html-webpack-plugin-modify.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html",
+    "html-webpack-plugin"
+  ],
+  "author": "Sosohime theziming@126.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sosohime/html-webpack-plugin-modify/issues"
+  },
+  "homepage": "https://github.com/sosohime/html-webpack-plugin-modify#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
